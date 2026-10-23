@@ -20,7 +20,7 @@ lightYellow = '\033[93m'
 
 #variable setups
 quit = False
-nightmareLock = True
+nightmareLock = False
 nightmareTiersUnlocked = []
 #GAMELOOP START
 while quit == False:

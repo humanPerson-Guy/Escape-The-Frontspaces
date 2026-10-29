@@ -27,7 +27,7 @@ while quit == False:
     #map choice (START)
     clearTerminal()
     print("{==============Game=Setup==============}")
-    sizeChoice = input(f"{bold}Select the game size:\n {bold}1){reset}{blue} Minuscule{reset}\n {bold}2){reset}{cyan} Tiny{reset}\n {bold}3){reset}{green} Small{reset}\n {bold}4){reset}{lightYellow} Large{reset}\n {bold}5){reset}{lightYellow} Huge {reset}\n {bold}6){reset}{red} Massive {reset}\n {bold}7){reset}{red} Colossal {reset}\n {bold}{grey}<Some devices may struggle to generate the sizes below>{reset}\n {bold}8){reset}{magenta} Titanic {reset}\n {bold}9){reset}{magenta} Celestial {reset}\n{bold}10){yellow} big {reset}\n{bold}11){green} Rily_big {reset}\n{bold}12){green} VERY_big {reset}\n{bold}13){green} MEGA_BIG {reset}\n{bold}14){green} THICK {reset}\n{bold}{green} <Answer>> {reset}")
+    sizeChoice = input(f"{bold}Select the game size:\n {bold}1){reset}{blue} Minuscule{reset}\n {bold}2){reset}{cyan} Tiny{reset}\n {bold}3){reset}{green} Small{reset}\n {bold}4){reset}{lightYellow} Large{reset}\n {bold}5){reset}{lightYellow} Huge {reset}\n {bold}6){reset}{red} Massive {reset}\n {bold}7){reset}{red} Colossal {reset}\n {bold}{grey}<Some devices may struggle to generate the sizes below>{reset}\n {bold}8){reset}{magenta} Titanic {reset}\n {bold}9){reset}{magenta} Celestial {reset}\n{bold}10){yellow} big {reset}\n{bold}11){green} Rily_big {reset}\n{bold}12){green} VERY_big {reset}\n{bold}13){green} MEGA_BIG {reset}\n{bold}14){green} THICK {reset}\n{bold}15){green} rily_THIcK {reset}\n{bold}16){green} Very_THICK {reset}\n{bold}16){green} Mega_THICK {reset}\n{bold}17){green} GIGA_THICK {reset}\n{bold}18){green} GIGA_THICK {reset}\n{bold}19){green} FAT {reset}\n{bold}20){green} OBEASE {reset}\n{bold}{green}  <Answer>> {reset}")
     if sizeChoice == "2": #400 rooms
         size = 20
         print(f"{cyan}Tiny {reset}selected")
@@ -65,8 +65,26 @@ while quit == False:
         size = 10000000 #6,553,601 rooms
         print(f"{green}MEGA_BIG {reset}selected")
     elif sizeChoice == "14":
-        size = 99999999 #6,553,601 rooms
+        size = 99999999 #like 3 rooms
         print(f"{green}THICK {reset}selected")
+    elif sizeChoice == "15":
+        size = 999999999 #like 3 rooms
+        print(f"{green}rilly_THICK {reset}selected")
+    elif sizeChoice == "16":
+        size = 9999999999 #like 3 rooms
+        print(f"{green}VERY_THICK {reset}selected")
+    elif sizeChoice == "17":
+        size = 99999999999 #like 3 rooms
+        print(f"{green}MEGA_THICK {reset}selected")
+    elif sizeChoice == "18":
+        size = 999999999999 #like 3 rooms
+        print(f"{green}GIGA_THICK {reset}selected")
+    elif sizeChoice == "19":
+        size = 9999999999999 #like 3 rooms
+        print(f"{green}FAT {reset}selected")
+    elif sizeChoice == "20":
+        size = 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 #like 3 rooms
+        print(f"{green}OBEASE {reset}selected")
     else:
         size = 10 #100 rooms
         print(f"{blue}Minuscule {reset}selected")
